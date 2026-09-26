@@ -20,7 +20,7 @@ omarchy theme install https://github.com/b0d3ll/omarchy-christmas-theme
 - `keyboard.rgb`: Christmas red backlight on supported RGB keyboards.
 - `icons.theme`: Yaru-red icons.
 - `unlock.png`: snowy boot/disk-unlock logo with a Santa hat and Christmas trees (see `preview-unlock.png`).
-- `backgrounds/`: Christmas wallpapers.
+- `backgrounds/`: five Christmas wallpapers (paper stars, snowy forest, candlelit window, red cottage, baubles); cycle with `omarchy theme bg next`.
 
 Requires an Omarchy version supporting palette generation from `colors.toml` and `shell.bar.toml`.
 
@@ -30,7 +30,7 @@ The burgundy palette takes inspiration from [Julradio](https://www.julradio.se/)
 
 ## Credits
 
-The wallpaper is AI-generated.
+The wallpapers are AI-generated.
 
 ## License
 
