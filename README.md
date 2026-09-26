@@ -20,9 +20,24 @@ omarchy theme install https://github.com/b0d3ll/omarchy-christmas-theme
 - `keyboard.rgb`: Christmas red backlight on supported RGB keyboards.
 - `icons.theme`: Yaru-red icons.
 - `unlock.png`: snowy boot/disk-unlock logo with a Santa hat and Christmas trees (see `preview-unlock.png`).
+- `screensaver.txt`: optional Christmas screensaver (see below).
 - `backgrounds/`: five Christmas wallpapers (paper stars, snowy forest, candlelit window, red cottage, baubles); cycle with `omarchy theme bg next`.
 
 Requires an Omarchy version supporting palette generation from `colors.toml` and `shell.bar.toml`.
+
+## Christmas screensaver (optional)
+
+Omarchy's screensaver is a system-wide setting, so a theme can't switch it by itself. To use the Christmas one (Santa hat, trees and snow), either copy it once:
+
+```sh
+cp ~/.config/omarchy/themes/christmas/screensaver.txt ~/.config/omarchy/branding/screensaver.txt
+```
+
+or install the hook that switches to it while the Christmas theme is active and restores your previous screensaver when you change theme:
+
+```sh
+omarchy hook install theme-set ~/.config/omarchy/themes/christmas/extras/christmas-screensaver.sh
+```
 
 ## Color inspiration
 
