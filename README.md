@@ -12,11 +12,15 @@ omarchy theme install https://github.com/b0d3ll/omarchy-christmas-theme
 
 ## Theme files
 
-- `colors.toml`: application palette and window border colors.
+- `colors.toml`: application palette; brass-to-evergreen window borders.
 - `shell.bar.toml`: burgundy status bar styling.
+- `shell.lock.toml`, `shell.notifications.toml`, `shell.menu.toml`, `shell.launcher.toml`: candlelit lock screen, notifications and menus with brass-to-evergreen borders.
+- `btop.theme`: string-light graphs, evergreen to brass to red.
+- `chromium.theme`: deep burgundy browser toolbar.
+- `keyboard.rgb`: Christmas red backlight on supported RGB keyboards.
 - `icons.theme`: Yaru-red icons.
-- `unlock.png`: brass-gold Omarchy logo for the boot/disk-unlock screen (see `preview-unlock.png`).
-- `backgrounds/01-christmas.png`: Christmas wallpaper.
+- `unlock.png`: snowy boot/disk-unlock logo with a Santa hat and Christmas trees (see `preview-unlock.png`).
+- `backgrounds/`: Christmas wallpapers.
 
 Requires an Omarchy version supporting palette generation from `colors.toml` and `shell.bar.toml`.
 

@@ -1,0 +1,66 @@
+# Christmas for btop: graphs glow like string lights, evergreen -> brass -> red.
+
+theme[main_bg]="#2E0303"
+theme[main_fg]="#F7EBDD"
+theme[title]="#E7C27D"
+theme[hi_fg]="#F28B82"
+theme[selected_bg]="#650606"
+theme[selected_fg]="#FFF7EC"
+theme[inactive_fg]="#A77F7C"
+theme[graph_text]="#E7D2C3"
+theme[meter_bg]="#430404"
+theme[proc_misc]="#E7C27D"
+
+# Box outlines: brass frames with evergreen and red ribbons.
+theme[cpu_box]="#E7C27D"
+theme[mem_box]="#66A386"
+theme[net_box]="#F28B82"
+theme[proc_box]="#B88A68"
+theme[div_line]="#650606"
+
+# Temperature: evergreen -> brass -> red.
+theme[temp_start]="#66A386"
+theme[temp_mid]="#E7C27D"
+theme[temp_end]="#F28B82"
+
+# CPU: string lights.
+theme[cpu_start]="#66A386"
+theme[cpu_mid]="#E7C27D"
+theme[cpu_end]="#F28B82"
+
+# Memory/disk meters.
+theme[free_start]="#66A386"
+theme[free_mid]="#ACCDBE"
+theme[free_end]="#C5E2E7"
+theme[cached_start]="#A5C8CF"
+theme[cached_mid]="#B0C4DE"
+theme[cached_end]="#D0DDF0"
+theme[available_start]="#E7C27D"
+theme[available_mid]="#F6DBA4"
+theme[available_end]="#FFF7EC"
+theme[used_start]="#EFA879"
+theme[used_mid]="#F28B82"
+theme[used_end]="#FFB0A3"
+
+# Network: download in brass and red, upload in evergreen and ice.
+theme[download_start]="#E7C27D"
+theme[download_mid]="#EFA879"
+theme[download_end]="#F28B82"
+theme[upload_start]="#66A386"
+theme[upload_mid]="#ACCDBE"
+theme[upload_end]="#C5E2E7"
+
+# Process list usage bars.
+theme[process_start]="#66A386"
+theme[process_mid]="#E7C27D"
+theme[process_end]="#F28B82"
+
+# Graph shading: burgundy embers up to candle wax.
+theme[gradient_color_0]="#2E0303"
+theme[gradient_color_1]="#430404"
+theme[gradient_color_2]="#650606"
+theme[gradient_color_3]="#B87056"
+theme[gradient_color_4]="#E7C27D"
+theme[gradient_color_5]="#F6DBA4"
+theme[gradient_color_6]="#F7EBDD"
+theme[gradient_color_7]="#FFF7EC"

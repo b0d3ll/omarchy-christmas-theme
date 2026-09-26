@@ -1,0 +1,14 @@
+[menu]
+# Brass-to-evergreen card border, brass-lit selected row.
+background                = "#2E0303"
+background-alpha          = 1.0
+text                      = "#F7EBDD"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#160707"
+scrim-alpha               = 0.55
+selected-background       = "#E7C27D"
+selected-background-alpha = 0.12
+selected-text             = "#E7C27D"
+selected-border           = "#E7C27D"
+selected-border-alpha     = 0.45

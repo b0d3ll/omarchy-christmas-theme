@@ -1,0 +1,14 @@
+[lock]
+# Candlelit lock card: deep burgundy glass, brass-to-evergreen border that
+# turns solid brass while typing.
+background       = "#210606"
+background-alpha = 0.85
+text             = "#F7EBDD"
+placeholder      = "#C39E95"
+text-error       = "#F28B82"
+border           = "hyprland.active-border"
+border-active    = "#E7C27D"
+border-error     = "#F28B82"
+border-alpha     = 1.0
+selection        = "#E7C27D"
+selection-alpha  = 0.45

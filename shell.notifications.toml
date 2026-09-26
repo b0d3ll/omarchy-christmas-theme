@@ -1,0 +1,8 @@
+[notifications]
+background       = "#210606"
+background-alpha = 1.0
+text             = "#F7EBDD"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+# Evergreen countdown bar under each notification.
+countdown        = "#66A386"
