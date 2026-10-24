@@ -27,16 +27,10 @@ Requires an Omarchy version supporting palette generation from `colors.toml` and
 
 ## Christmas screensaver (optional)
 
-Omarchy's screensaver is a system-wide setting, so a theme can't switch it by itself. To use the Christmas one (Santa hat, trees and snow), either copy it once:
+Omarchy's screensaver is a system-wide setting, so a theme can't switch it by itself. To use the Christmas one (Santa hat, trees and snow), copy it:
 
 ```sh
 cp ~/.config/omarchy/themes/christmas/screensaver.txt ~/.config/omarchy/branding/screensaver.txt
-```
-
-or install the hook that switches to it while the Christmas theme is active and restores your previous screensaver when you change theme:
-
-```sh
-omarchy hook install theme-set ~/.config/omarchy/themes/christmas/extras/christmas-screensaver.sh
 ```
 
 ## Color inspiration
